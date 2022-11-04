@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DOM en JavaScript</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <h1>Formulario en HTML</h1>
+
+        <form action="" id="contactForm">
+            <div>
+                <label>Nombre completo:</label> <br />
+                <input type="text" id="fullName" />
+            </div>
+            <div>
+                <label>País de nacimiento:</label> <br />
+                <select id="countries">
+                    <option value="">Elige uno</option>
+                    <option value="">Argentina</option>
+                    <option value="">Bolivia</option>
+                    <option value="">Brasil</option>
+                    <option value="">Colombia</option>
+                    <option value="">Chile</option>
+                    <option value="">Ecuador</option>
+                    <option value="">Guatemala</option>
+                    <option value="">México</option>
+                    <option value="">Paraguay</option>
+                    <option value="">Peru</option>
+                    <option value="">Uruguay</option>
+                    <option value="">Venezuela</option>
+                </select>
+            </div>
+            <div>
+                <label>Mensaje:</label> <br />
+                <textarea cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <script src="js/eventosFormularios.js"></script>
+    </body>
+</html>

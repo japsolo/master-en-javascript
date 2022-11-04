@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>DOM en JavaScript</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <h1>Formulario en HTML</h1>
+
+        <div id="alert"></div>
+
+        <form action="" id="contactForm">
+            <div>
+                <label>Nombre completo:</label> <br />
+                <input type="text" id="fullName" />
+                <span></span>
+            </div>
+            <div>
+                <label>Correo electrónico:</label> <br />
+                <input type="email" id="email" />
+                <span></span>
+            </div>
+            <div>
+                <label>País de nacimiento:</label> <br />
+                <select id="countries">
+                    <option value="">Elige uno</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Bolivia">Bolivia</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Colombia">Colombia</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Ecuador">Ecuador</option>
+                    <option value="Guatemala">Guatemala</option>
+                    <option value="México">México</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Peru">Peru</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Venezuela">Venezuela</option>
+                </select>
+                <span></span>
+            </div>
+            <div>
+                <label>Mensaje:</label> <br />
+                <textarea cols="30" rows="10" id="message"></textarea>
+                <span></span>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <script src="js/validacionFormulario.js"></script>
+    </body>
+</html>
